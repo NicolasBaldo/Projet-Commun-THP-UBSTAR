@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: 'Genty';
+            src: url('GentyDemo-Regular.ttf') format('truetype');
+            /* Ajoutez d'autres formats de police si nécessaire (e.g., woff, woff2) */
+        }
+
+        .navbar-brand {
+            font-family: 'Genty', sans-serif;
+            font-size: 20px;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+        .custom-brand {
+        font-size: 50px; 
+        font-family: 'Genty', sans-serif;
+        color: white; 
+        text-decoration: none; 
+    }
+    .hover-zoom {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .hover-zoom:hover {
+        transform: scale(1.2); 
+    }
+
+    </style>
+</head>
+
+<body>
+   
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">UBSTAR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Notre Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tarifs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="live.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <a class="custom-brand" href="#">UBSTAR</a>
+                <h1 class="text-light">Le premier Service de contact direct à l'artiste</h1>
+                <p class="text-light">Plus besoin de passer par les bookers</p>
+                <p class="text-light">Un Contact Simplifié</p>
+            </div>
+            
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Peacock Society.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <a class="custom-brand" href="#">UBSTAR</a>
+                <h1 class="text-light">Le premier Service de contact direct à l'artiste</h1>
+                <p class="text-light">Pour tous évenements</p>
+                <p class="text-light">Un Tarif fixe</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="LIVE 3.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <a class="custom-brand" href="#">UBSTAR</a>
+                <h1 class="text-light">Le premier Service de contact direct à l'artiste</h1>
+                <p class="text-light">Une réponse rapide sous 24h</p>
+                <p class="text-light">Remboursements possibles en cas d'indisponibilité soudaine</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+
+<center><h1>Notre sélection d'artistes</h1></center>
+<br>
+<br>
+<br>
+<br>
+
+      <div class="container marketing">
+
+     
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+              <div class="col-lg-4 mb-4 text-center">
+                <div class="hover-zoom">
+                <img class="bd-placeholder-img rounded-circle hover-zoom" width="140" height="140" src="Mac Demarco.jpeg" alt="Placeholder">
+                <h2 class="fw-normal">Mac Demarco</h2>
+                <p>Mac DeMarco, artiste canadien du rock indépendant, séduit par son son lo-fi décontracté et ses mélodies apaisantes. Sa voix unique et sa présence nonchalante en font une figure emblématique de la scène musicale actuelle.</p>
+                <p><a class="btn btn-success" href="#">Réservations &raquo;</a></p>
+            </div>
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4 mb-4 text-center">
+           
+                <img class="bd-placeholder-img rounded-circle hover-zoom" width="140" height="140" src="FreezeCorleone.webp" alt="Placeholder">
+                <h2 class="fw-normal">Freeze Corleone</h2>
+                <div class="collapse-text">
+                    Freeze Corleone, rappeur français au flow puissant, livre des paroles percutantes sur des thèmes sociaux. Sa voix brute et son style sans compromis en font une figure marquante du rap francophone.
+                  </div>
+                <p><a class="btn btn-success" href="#">Réservations &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4 text-center">
+                <img class="bd-placeholder-img rounded-circle hover-zoom" width="140" height="140" src="richiehawtin.jpeg" alt="Placeholder">
+                <h2 class="fw-normal">Richie Hawtin</h2>
+                <p>
+                    Richie Hawtin, légende de la musique électronique, innove avec sa techno minimale. Pionnier canadien, il redéfinit l'expérience live avec des sets dynamiques et avant-gardistes.</p>
+                <p><a class="btn btn-success" href="#">Réservations &raquo;</a></p>
+
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4 text-center">
+                <img class="bd-placeholder-img rounded-circle hover-zoom" width="140" height="140" src="allan zut 2.jpeg" alt="Placeholder">
+                <h2 class="fw-normal">Allan Zut</h2>
+                <p>
+                   
+Allan Zut, rappeur français, impose son style authentique avec des paroles incisives et un flow distinctif, émergeant de la scène underground avec une perspective franche et engagée.</p>
+                <p><a class="btn btn-success" href="#">Réservations &raquo;</a></p>
+
+              </div>
+              <div class="col-lg-4 text-center">
+                <img class="bd-placeholder-img rounded-circle hover-zoom" width="140" height="140" src="BIGA.jpeg" alt="Placeholder">
+                <h2 class="fw-normal">Biga*Ranx</h2>
+                <p>
+                    Biga*Ranx, artiste français reggae/dancehall, allie flow fluide et sonorités ensoleillées. Originaire de Tours, il fusionne habilement reggae, hip-hop et électronique, créant un style moderne et énergique.</p>
+                <p><a class="btn btn-success" href="#">Réservations &raquo;</a></p>
+
+              </div>
+              <div class="col-lg-4 text-center">
+                <img class="bd-placeholder-img rounded-circle hover-zoom" width="140" height="140" src="Imanu.jpeg" alt="Placeholder">
+                <h2 class="fw-normal">Imanu</h2>
+                <p>
+                 
+Imanu, DJ et producteur originaire des Pays-Bas, se démarque dans la scène drum and bass avec son talent distinctif. Ses productions intègrent des sonorités percutantes et des rythmes énergiques, faisant de lui une figure montante incontournable de la musique électronique internationale.</p>
+                <p><a class="btn btn-success" href="#">Réservations &raquo;</a></p>
+
+              </div>
+            
+
+            </div>
+        </div> <!-- /.container -->
+        <br>
+        <br>
+        <br>
+            <center><h1>Ils nous ont fait confiance </h1></center>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1"><i>"I can't see myself booking my gigs without Ubstar"</i> </h2>
+                <p class="text-secondary">Jeff Mills</p>
+                <br>
+                 <br>
+                <p class="lead">Comme Jeff Mills,Faites nous confiance pour vos Dj sets.Chaque Dj peut réclammer le materiel de son choix grâce a Ubstar.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid" 
+                     src="Jeff mills.webp" 
+                     alt=""
+                     style="height: 500px; width: 600px; object-fit: cover;">
+              </div>
+          </div>
+          
+          </div>
+          
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1"><i>"Oh,Yeah.I cancel so often by last minute but now i'm stressless with Ubstar,Promoters will be paid"</i> </h2>
+                <p class="text-secondary">Peter Doherty</p>
+                <br>
+                <br>
+                <p class="lead">Parce-que certaines Rockstars sont imprévisibles,en cas d'annulation,nous vous proposons un taux de remboursement quasiment égal a vos investissements.</p>
+            </div>
+            <div class="col-md-5">
+               <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid  " 
+                     src="Peter.webp" 
+                     alt=""
+                     style="height: 500px; width: 600px; object-fit: cover;">
+              </div>
+          </div>
+        
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1"><i>"I set London on fire with Ubstar"</i> </h2>
+                <p class="text-secondary">Skepta</p>
+                <br>
+                <br>
+                <p class="lead">Nous sommes présent dans toutes les plus grandes capitales avec des palettes d'artistes dédiées.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid" 
+                   src="Skepta.jpeg" 
+                   alt=""
+                   style="height: 500px; width: 600px; object-fit: cover;">
+            </div>
+          </div>
+          
+          
+          
+    
+        <hr class="featurette-divider">
+    
+        <!-- /END THE FEATURETTES -->
+    
+      </div><!-- /.container -->
+    
+    
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2023-2024 Ubstar Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+      
+    <!-- Bootstrap JavaScript and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-VsQQiuQlTeLZMKn6YLVvbP1ZlUsXFkMzKtdbFPon7E&r=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6O8/HS5An5iZZ4nVU3T+pUpJhW8X4V"
+        crossorigin="anonymous"></script>
+        <script src="path/to/popper.min.js"></script>
+<script src="path/to/bootstrap.min.js"></script>
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+</body>
+
+</html>
+
